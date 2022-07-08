@@ -10,7 +10,7 @@ resource "aws_instance" "myawsserver" {
   tags = {
     Name = lower (var.name)
     env = upper (var.env)
-    owner = upper ("Gagandeep")
+    owner = upper ("Gagandeep Singh")
     dept = "Training"
     client = "jpmc"
   }
