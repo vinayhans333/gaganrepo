@@ -11,7 +11,7 @@ resource "aws_instance" "myawsserver" {
     Name = lower (var.name)
     env = upper (var.env)
     owner = upper ("Gagandeep Singh")
-    dept = "Training"
+    dept = "lab2"
     client = "jpmc"
   }
 }
