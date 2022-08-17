@@ -8,7 +8,7 @@ variable "hw" {
 }
 
 variable "name" {
-  default = "gagan-manual-tf"
+  default = "gagan-auto-tf"
 }
 
 variable "env" {
