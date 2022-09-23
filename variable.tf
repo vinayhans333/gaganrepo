@@ -8,7 +8,7 @@ variable "hw" {
 }
 
 variable "name" {
-  default = "gagan-auto-tf"
+  default = "vinay-cloud-tf"
 }
 
 variable "env" {
