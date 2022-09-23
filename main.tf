@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_instance" "myawsserver" {
   ami = var.image
-  instance_type = "t2.micro"
+  instance_type = "t2.large"
  # key_name = "gagan-new"
   tags = {
     Name = lower (var.name)
