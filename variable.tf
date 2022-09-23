@@ -16,5 +16,5 @@ variable "env" {
 }
 
 variable "bucket-name" {
-  default = "gagandefaultbucket"
+  default = "vinaydefaultbucket"
 }
