@@ -8,7 +8,7 @@ variable "hw" {
 }
 
 variable "name" {
-  default = "vinay-cloud-tf"
+  default = "vinay-cloud-tf2"
 }
 
 variable "env" {
